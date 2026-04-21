@@ -11,11 +11,13 @@ form.addEventListener("submit", function (e) {
 const nama = document.getElementById("nama").value;
 const email = document.getElementById("email").value;
 const nohp = document.getElementById("nohp").value;
+const usia = document.getElementById("usia").value;
+const kegemaran = document.getElementById("kegemaran").value;
 const kategori = document.getElementById("kategori").value;
 const pesan = document.getElementById("pesan").value;
 
 //validasi form
-if (nama === "" || email ==="" || nohp ===""|| kategori ==="") {
+if (nama === "" || email === "" || nohp === "" || usia === "" || kegemaran === "" || kategori === "") {
     alert("Semua field wajib diisi");
     return;
 }
@@ -32,6 +34,8 @@ hasil.innerHTML = `
         <p><strong>Nama:</strong> ${nama}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>No HP:</strong> ${nohp}</p>
+        <p><strong>Usia:</strong> ${usia} tahun</p>
+        <p><strong>Kegemaran:</strong> ${kegemaran}</p>
         <p><strong>Kategori:</strong> ${kategori}</p>
         <p><strong>Pesan:</strong> ${pesan}</p>
         </div>
