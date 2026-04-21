@@ -44,6 +44,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative; /* Ditambahkan agar logo univ bisa diposisikan absolut terhadap navbar */
+}
+
+/* LOGO UNIVERSITAS */
+#univ-logo {
+  width: 60px; /* Ukuran lebih kecil dari foto profil (140px) */
+  height: auto;
+  margin-left: 20px; /* Jarak dari menu */
 }
 
 /* LOGO */
