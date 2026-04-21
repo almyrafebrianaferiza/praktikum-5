@@ -27,7 +27,7 @@ if (!email.includes("@")) {
 
 //menampilkan data (manipulasi DOM)
 hasil.innerHTML = `
-    <div style="margin-top:20px; padding:15px; background:#f1f5f9; border-radius:10px;">
+    <div style="margin-top:20px; padding:15px; background:#1a1a1a; border-radius:10px; border: 1px solid #333; color: #eeeeee;">
         <h3>Data Berhasil Dikirim 👍👍</h3>
         <p><strong>Nama:</strong> ${nama}</p>
         <p><strong>Email:</strong> ${email}</p>
