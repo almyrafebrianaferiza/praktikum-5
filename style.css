@@ -8,7 +8,7 @@
 /* BODY */
 body {
   font-family: Arial, sans-serif;
-  background: #000000;
+  background: #808080;
   color: #eeeeee;
   line-height: 1.6;
 }
@@ -28,10 +28,12 @@ body {
     width: 140px;
     height: 140px;
     object-fit: cover;
-    border-radius: 60;
+    border-radius: 60px;
     display: block;
     margin: 0 auto 15px;
     border: 3px solid #4f46e5;
+    background-color: #808080;
+    padding: 5px;
 }
 
 .nav-container {
@@ -105,7 +107,7 @@ article {
 
 /* TYPO */
 h2 {
-  color: #3b82f6;
+  color: #000000;
   margin-bottom: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
